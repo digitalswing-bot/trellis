@@ -24,7 +24,7 @@
       paths:
         - "{{ playbook_dir }}/roles/php/vars/"
 
-  tags: [memcached, php, sshd]
+  tags: [memcached, php, redis, sshd]
 
 - name: Verify dict format for package component variables
   fail:
